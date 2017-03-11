@@ -95,11 +95,11 @@ p{
 footer{
     width: 100%;
     display: flex;
-    display: -webkit-flex;
-    justify-content: center;
+    
 }
 
 footer p {
+    margin: 0 auto;
     text-align: center;
     font-size: 12px;
 }
@@ -107,12 +107,7 @@ footer p {
 /*Media Queries*/
 
 @media (max-width: 600px) {
-    /*.container{
-        display: block;
-    }*/
     .main {
-    top: 0;
-    position: static;
     margin: 0 auto;
     }   
 
@@ -130,6 +125,15 @@ footer p {
     .right{
         margin-top: 10px;
         width: 278px;
+    }
+
+    .text{
+        margin-bottom: 0px;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 5px;
     }
 
     footer p{
