@@ -2,19 +2,22 @@
     margin: 0;
     padding: 0;
 }
-body{
+html, body{
     background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     color: white;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .container {   
-    height: 100vh;
+    min-height: 100%;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 .main {
@@ -32,20 +35,24 @@ body{
     margin-right: 10px;
     width: 50%;
     display: flex;
+    display: -webkit-flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
 }
 
 .left img{
-    width: 278px;
+    max-width: 278px;
 }
 
 .right{
     width: 50%;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .text{
@@ -74,6 +81,7 @@ p{
 .social{
     margin-top: 10px;
     display: flex;
+    display: -webkit-flex;
     flex-direction: row;
     justify-content: flex-start;
 }
@@ -85,8 +93,10 @@ p{
 }
 
 footer{
-    position:fixed;
-    bottom: 30px;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
 }
 
 footer p {
@@ -97,6 +107,9 @@ footer p {
 /*Media Queries*/
 
 @media (max-width: 600px) {
+    /*.container{
+        display: block;
+    }*/
     .main {
     top: 0;
     position: static;
@@ -106,6 +119,7 @@ footer p {
     .wrapper{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .left{
@@ -116,6 +130,16 @@ footer p {
     .right{
         margin-top: 10px;
         width: 278px;
+    }
+
+    footer p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .left img{
+        width: 60%;
     }
 }
 
