@@ -16,7 +16,7 @@ html, body{
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     /*align-items: center;*/
 }
 
@@ -24,9 +24,11 @@ html, body{
     /*position: relative;
     top:10%;*/
     margin: 0 auto;
+    /*padding-top: 50px;*/
 }
 
 .wrapper {
+    margin-top: 15%;
     display: flex;
     flex-direction: row;
 }
@@ -35,7 +37,6 @@ html, body{
     margin-right: 10px;
     width: 50%;
     display: flex;
-    display: -webkit-flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
@@ -50,8 +51,8 @@ html, body{
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin: 0 auto;
 }
 
@@ -116,6 +117,7 @@ footer p {
     }   
 
     .wrapper{
+        margin-top: 0;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -148,6 +150,12 @@ footer p {
 @media (max-width: 350px) {
     .left img{
         width: 60%;
+    }
+}
+
+@media (max-width: 310px) {
+    footer {
+        display: none;
     }
 }
 
