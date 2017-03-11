@@ -21,8 +21,8 @@ html, body{
 }
 
 .main {
-    position: relative;
-    top:-10%;
+    /*position: relative;
+    top:10%;*/
     margin: 0 auto;
 }
 
@@ -93,20 +93,24 @@ p{
 }
 
 footer{
+    position: absolute;
+    bottom: 5px;
     width: 100%;
     display: flex;
-    
 }
 
 footer p {
     margin: 0 auto;
-    text-align: center;
+    text-align: right;
     font-size: 12px;
 }
 
 /*Media Queries*/
 
 @media (max-width: 600px) {
+    .container{
+        justify-content: flex-start;
+    }
     .main {
     margin: 0 auto;
     }   
@@ -114,7 +118,7 @@ footer p {
     .wrapper{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: flex-start;
     }
 
     .left{
