@@ -12,6 +12,7 @@ html, body{
 }
 
 .container {   
+    max-width: 960px;
     min-height: 100%;
     display: flex;
     display: -webkit-flex;
@@ -155,7 +156,7 @@ footer p {
 
 @media (max-width: 310px) {
     footer {
-        display: none;
+        display: none !important;
     }
 }
 
