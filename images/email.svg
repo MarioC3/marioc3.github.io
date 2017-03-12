@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="20px" viewBox="0 0 32 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-855.000000, -530.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <path d="M856.628315,530 L870.789465,542.286215 L884.950616,530 L856.628315,530 Z M855,531.365157 L855,548.947369 C855,549.530527 855.469473,550 856.052631,550 L885.5263,550 C886.109457,550 886.578931,549.530527 886.578931,548.947369 L886.578931,531.365157 L871.480254,544.473687 C871.084138,544.818142 870.494793,544.818142 870.098676,544.473687 L855,531.365157 Z" id="email"></path>
+        </g>
+    </g>
+</svg>
