@@ -4374,3 +4374,11 @@
 
 }());
 
+/**
+ * ----------------------------------------------------------------------
+ * Webflow: Interactions: Init
+ */
+Webflow.require('ix').init([
+  {"slug":"me-img","name":"me_img","value":{"style":{"opacity":0,"x":"0px","y":"-100px","z":"0px"},"triggers":[{"type":"load","preload":true,"stepsA":[{"wait":"1000ms","opacity":1,"transition":"transform 1000ms ease 0, opacity 1000ms ease-in-quad 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"about-text","name":"about_text","value":{"style":{"opacity":0,"x":"100px","y":"0px","z":"0px"},"triggers":[{"type":"load","preload":true,"stepsA":[{"wait":"1000ms","opacity":1,"transition":"transform 1000ms ease-in-out 0, opacity 1000ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}}
+]);
