@@ -323,7 +323,7 @@ img {
 .button {
   display: block;
   width: 200px;
-  margin: 2px auto 70px;
+  margin: 2px auto 5px;
   clear: both;
   background-color: #ff5757;
   font-family: Roboto, sans-serif;
@@ -635,6 +635,14 @@ img {
   bottom: 0px;
   display: block;
   margin: 10px 10px 9px;
+}
+
+.prototypelink {
+  color: #ff5757;
+}
+
+.prototypelink:hover {
+  color: #494848;
 }
 
 html.w-mod-js *[data-ix="about-text"] {
