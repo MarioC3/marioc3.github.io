@@ -834,6 +834,10 @@ html.w-mod-js *[data-ix="project1"] {
     -ms-flex-align: center;
     align-items: center;
   }
+  .about_section.section {
+    height: 100vh;
+    padding-right: 25px;
+  }
   .container {
     margin-top: 22px;
     margin-right: 20px;
@@ -851,6 +855,10 @@ html.w-mod-js *[data-ix="project1"] {
     margin-right: 0px;
     margin-left: 0px;
     padding-left: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
   .heading {
     font-size: 50px;
@@ -865,6 +873,9 @@ html.w-mod-js *[data-ix="project1"] {
     z-index: 1;
     height: 100%;
     margin-top: 50px;
+  }
+  .projects_section.section {
+    height: 100vh;
   }
   .image {
     height: 60px;
@@ -882,8 +893,11 @@ html.w-mod-js *[data-ix="project1"] {
     font-size: 41px;
     line-height: 41px;
   }
+  .image-3 {
+    width: 50%;
+  }
   .image-3.poster {
-    width: 300px;
+    width: 70%;
     height: auto;
   }
   .image-6 {
@@ -916,6 +930,9 @@ html.w-mod-js *[data-ix="project1"] {
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
+  }
+  .div-block-10 {
+    padding-right: 25px;
   }
 }
 
