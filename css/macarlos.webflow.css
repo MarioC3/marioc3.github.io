@@ -839,7 +839,7 @@ html.w-mod-js *[data-ix="project1"] {
     padding-right: 25px;
   }
   .container {
-    margin-top: 22px;
+    margin-top: 0px;
     margin-right: 20px;
     margin-left: 20px;
     -webkit-box-align: start;
@@ -876,6 +876,7 @@ html.w-mod-js *[data-ix="project1"] {
   }
   .projects_section.section {
     height: 100vh;
+    margin-top: 0px;
   }
   .image {
     height: 60px;
