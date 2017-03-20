@@ -224,10 +224,6 @@ img {
   color: #ff5757;
 }
 
-.text-span-5 {
-  color: #ff5757;
-}
-
 .body {
   background-image: none;
 }
@@ -260,10 +256,6 @@ img {
 .projects_section.section {
   position: relative;
   z-index: 1;
-}
-
-.text-span-6 {
-  color: #ff5757;
 }
 
 .image {
@@ -339,6 +331,10 @@ img {
   color: #ff5757;
 }
 
+.button.end {
+  margin-bottom: 50px;
+}
+
 .image-3 {
   position: relative;
   z-index: 1;
@@ -385,66 +381,13 @@ img {
   bottom: 94px;
 }
 
-.h1_projects {
-  margin-top: 115px;
-  font-size: 100px;
-  line-height: 92px;
-  text-align: left;
-}
-
-.heading-5 {
-  margin-top: 0px;
-  margin-bottom: 15px;
-  font-family: Roboto, sans-serif;
-  color: #ff5757;
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 300;
-  text-align: left;
-}
-
-.div-block-3 {
-  display: block;
-  max-width: 600px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.sketchcontainer {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.image-8 {
-  display: block;
-  width: 40%;
-  margin: 10px;
-}
-
-.image-8.lastimg {
-  width: 82%;
-}
-
 .navbar {
-  position: fixed;
+  position: absolute;
   left: 0px;
   top: 0px;
   right: 0px;
   height: 100px;
-  background-color: #fff;
-  box-shadow: 0 0 1px 0 #000;
+  background-color: transparent;
 }
 
 .nav-link {
@@ -462,6 +405,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
   font-family: Roboto, sans-serif;
+  color: #fff;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -472,24 +416,6 @@ img {
 
 .nav-link.w--current {
   color: #ff5757;
-}
-
-.div-block-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .div-block-5 {
@@ -538,82 +464,6 @@ img {
   text-align: center;
 }
 
-.email_container {
-  display: block;
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.heading-7 {
-  margin-top: 115px;
-  margin-bottom: 60px;
-  font-size: 90px;
-  line-height: 94px;
-  text-align: center;
-}
-
-.heading-8 {
-  font-family: Roboto, sans-serif;
-  color: #ff5757;
-  font-weight: 500;
-}
-
-.heading-8.examples {
-  text-align: center;
-}
-
-.image-11 {
-  margin-top: 20px;
-  margin-left: 20px;
-  float: right;
-}
-
-.image-11.design {
-  margin-right: 20px;
-  margin-left: 0px;
-  float: right;
-}
-
-.paragraph-5 {
-  font-size: 22px;
-  line-height: 28px;
-  font-weight: 300;
-}
-
-.div-block-6 {
-  margin-top: 41px;
-  margin-left: 10px;
-  clear: none;
-}
-
-.div-block-7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.div-block-8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 80px;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-}
-
 .div-block-9 {
   position: relative;
   left: 455px;
@@ -643,6 +493,118 @@ img {
 
 .prototypelink:hover {
   color: #494848;
+}
+
+.hero-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 450px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/ibooks52x.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.hero_text {
+  color: #fff;
+  font-size: 100px;
+  line-height: 104px;
+}
+
+.content_ibook {
+  display: block;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading-9 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.paragraph-6 {
+  max-width: 760px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  line-height: 29px;
+}
+
+.div-block-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-12 {
+  margin: 15px;
+}
+
+.image-12.allwidth {
+  width: 100%;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #ff5757;
+}
+
+.text-block {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Roboto, sans-serif;
+  font-size: 19px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.heading-10 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  text-align: center;
 }
 
 html.w-mod-js *[data-ix="about-text"] {
@@ -744,44 +706,12 @@ html.w-mod-js *[data-ix="project1"] {
     margin-right: auto;
     margin-left: auto;
   }
-  .image-8.lastimg {
-    width: 83%;
-  }
   .nav-menu {
     background-color: #fff;
     box-shadow: 0 0 2px 0 #000;
   }
   .menu-button.w--open {
     background-color: #ff5757;
-  }
-  .heading-8 {
-    clear: both;
-    text-align: center;
-  }
-  .image-11 {
-    display: block;
-    margin-right: auto;
-    margin-bottom: 20px;
-    margin-left: auto;
-    float: none;
-  }
-  .image-11.design {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    float: none;
-  }
-  .paragraph-5 {
-    margin-right: 10px;
-    text-align: center;
-  }
-  .div-block-7 {
-    clear: both;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
   }
   .div-block-9 {
     position: static;
@@ -792,39 +722,28 @@ html.w-mod-js *[data-ix="project1"] {
     -ms-flex-item-align: end;
     align-self: flex-end;
   }
+  .div-block-11 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .section-2 {
+    margin-right: 15px;
+    margin-left: 16px;
+  }
+  .image-13 {
+    margin: 15px 15px 14px;
+  }
 }
 
 @media (max-width: 767px) {
   .container {
     margin-right: 20px;
     margin-left: 20px;
-  }
-  .sketchcontainer {
-    margin-right: 25px;
-    margin-left: 25px;
-  }
-  .image-8 {
-    margin: 10px;
-  }
-  .image-8.lastimg {
-    width: 84%;
-  }
-  .image-9 {
-    width: 50%;
-  }
-  .image-10 {
-    width: 50%;
-  }
-  .heading-7 {
-    text-align: center;
-  }
-  .heading-8 {
-    margin-left: 8px;
-    clear: both;
-  }
-  .paragraph-5 {
-    margin-right: 15px;
-    margin-left: 8px;
   }
   .div-block-9 {
     display: none;
@@ -912,26 +831,6 @@ html.w-mod-js *[data-ix="project1"] {
   .image-6 {
     bottom: 9px;
   }
-  .h1_projects {
-    margin-right: 10px;
-    margin-left: 10px;
-    font-size: 50px;
-    line-height: 50px;
-  }
-  .heading-5 {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  .paragraph-4 {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  .image-11 {
-    width: 100%;
-  }
-  .div-block-7 {
-    margin-bottom: 0px;
-  }
   .div-block-9 {
     display: none;
     margin-right: 0px;
@@ -942,6 +841,9 @@ html.w-mod-js *[data-ix="project1"] {
   }
   .div-block-10 {
     padding-right: 25px;
+  }
+  .hero_text {
+    text-align: center;
   }
 }
 
