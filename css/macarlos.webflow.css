@@ -405,12 +405,13 @@ img {
   -ms-flex-align: center;
   align-items: center;
   font-family: Roboto, sans-serif;
-  color: #fff;
+  color: #ff5757;
   font-weight: 300;
   text-transform: uppercase;
 }
 
 .nav-link:hover {
+  opacity: 0.63;
   color: #ff5757;
 }
 
