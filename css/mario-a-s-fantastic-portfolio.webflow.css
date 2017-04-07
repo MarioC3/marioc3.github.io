@@ -101,10 +101,14 @@ a {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 .projectwrap.contact {
@@ -153,7 +157,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 300px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -200,6 +204,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  height: 300px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -208,6 +213,10 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   background-image: -webkit-linear-gradient(270deg, rgba(108, 221, 13, .85), rgba(108, 221, 13, .85)), url('../images/greenmedesktop2x.png');
   background-image: linear-gradient(180deg, rgba(108, 221, 13, .85), rgba(108, 221, 13, .85)), url('../images/greenmedesktop2x.png');
   background-position: 0px 0px, 50% 0px;
@@ -241,11 +250,23 @@ a {
 }
 
 .projects.badgewrapper {
-  position: relative;
+  position: static;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .projects.poster1 {
@@ -404,6 +425,7 @@ a {
     width: 450px;
   }
   .div-block.projectscontainer {
+    height: auto;
     max-width: 80%;
   }
   .projectwrap.medium {
@@ -425,8 +447,20 @@ a {
     width: 100%;
     height: 200px;
   }
+  .projects {
+    height: 100%;
+  }
+  .projects.greenmeapp {
+    height: 100%;
+  }
+  .projects.greenmedesktop {
+    height: 100%;
+  }
   .projects.poster1 {
     width: auto;
+    height: auto;
+  }
+  .section {
     height: auto;
   }
   .projects-headline.interactiongad {
