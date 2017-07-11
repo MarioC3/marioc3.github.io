@@ -118,7 +118,7 @@ nav li {
 }
 
 #projects li {
-    margin: 0px;
+    margin: 0 0 20px;
     background: lightgray;
     border-radius: 5px;
     height: 250px;
