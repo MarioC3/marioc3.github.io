@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="22px" viewBox="0 0 25 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="32"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Combined-Shape" transform="translate(-4.000000, -5.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <path d="M15.2349315,13.5798462 L15.7318709,14.9007723 L11.0888769,26.6585048 L10.0818299,26.6585048 L15.2349315,13.5798462 Z M14.2409448,10.9901055 L14.7378842,12.285127 L9.07467498,26.6585911 L8.0546756,26.6585911 L14.2409448,10.9901055 Z M13.1945658,8.50514959 L13.730794,9.70842504 L7.03441718,26.658548 L6.02737018,26.658548 L13.1945658,8.50514959 Z M16.6212456,5 L17.6282926,5 L26.1949921,26.6585264 L25.1879451,26.6585264 L16.6212456,5 Z M18.6484215,5 L19.6554685,5 L28.222168,26.6585264 L27.2019527,26.6585264 L18.6484215,5 Z M14.5938754,5 L15.6011383,5 L24.1676219,26.6585264 L23.1476225,26.6585264 L14.5938754,5 Z M12.5666995,5 L13.5869147,5 L22.140446,26.6585264 L21.133399,26.6585264 L13.0768071,6.26868493 L5.02021525,26.6585264 L4,26.6585264 L12.5666995,5 Z" fill="#4A4A4A" fill-rule="nonzero" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
