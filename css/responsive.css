@@ -5,13 +5,11 @@
         width: 50%;
         float: left;
     }
-
     #secondary {
         width: 40%;
         float: right;
         margin-bottom: 60px;
     }
-
     /* Contact page */
     .profile-photo {
         float: left;
@@ -24,9 +22,8 @@
         width: 45%;
         margin: 0 2.5%;
     }
-
     /* header */
-    header{
+    header {
         padding-bottom: 15px;
         margin-top: 20px;
         margin-bottom: 50px;
@@ -37,19 +34,15 @@
         margin: 30px 5% 0 0;
         text-align: right;
         width: 45%;
-
     }
-
-    #logo{
+    #logo {
         padding: 0;
         float: left;
         margin-left: 5%;
         text-align: left;
         width: 45%;
     }
-
-    h1{
+    h1 {
         font-size: 3.em;
     }
-
 }
