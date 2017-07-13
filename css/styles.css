@@ -28,7 +28,7 @@ body {
   color: #303030;
 }
 
-p {margin-bottom: 1.3em;
+p {
     font-weight: 300;
 }
 
@@ -53,6 +53,11 @@ h4 {font-size: 1.333em;}
 small, .font_small {font-size: 0.75em;}
 
 /* Structure */
+
+.content {
+    min-height: calc(100vh - 170px);
+    margin-bottom: 50px;
+}
 
 #wrapper {
     max-width: 960px;
@@ -180,11 +185,12 @@ nav li {
 /* Footer */
 
 footer {
-    padding-top: 50px;
-    clear: both;
+    padding-top: 30px;
+    height: 120px;
 }
 
 footer p {
+    margin: 0;
     text-align: center;
 }
 
@@ -212,7 +218,7 @@ footer p {
 .profile-photo {
     display: block;
     width: 150px;
-    margin: 0 auto 20px;
+    margin: 0 auto;
     border-radius: 5px;
     box-shadow: 1px 2px 2.46px 0px rgba(0, 0, 0, 0.15);
 }
