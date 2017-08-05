@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo:700|Source+Sans+Pro:600,700");
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%; }
+
+a {
+  text-decoration: none;
+  color: #343942; }
+
+html {
+  font-size: 1em; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  line-height: 1.45;
+  color: #343942; }
+
+p {
+  margin-bottom: 1.3em; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: inherit;
+  line-height: 1.2; }
+
+h1 {
+  font-family: 'Arvo', serif;
+  margin-top: 0;
+  font-size: 6.854em; }
+
+h2 {
+  font-size: 4.236em; }
+
+h3 {
+  font-size: 2.618em; }
+
+h4 {
+  font-size: 1.618em; }
+
+small,
+.font_small {
+  font-size: 0.618em; }
+
+.nav-wrapper {
+  width: 100%;
+  padding: 30px 0px 25px 0px;
+  background: white;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 4;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
+
+.nav-wrapper ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.nav-wrapper ul a {
+  padding: 5px 20px;
+  transition: all .5s; }
+
+.nav-wrapper a:hover {
+  color: #FF4365; }
+
+.nav-wrapper a:active {
+  color: #FF4365; }
+
+.header-wrapper {
+  margin: 80px 0px 20px 20px; }
+
+.header-wrapper img {
+  width: 40px;
+  height: auto;
+  margin: 20px 0px; }
+
+.header-wrapper h2 {
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+  line-height: 50%; }
+
+.stripe1, .stripe2 {
+  width: 200px;
+  height: 28px;
+  background: #FF4365;
+  position: relative;
+  bottom: 15px;
+  left: 35px;
+  z-index: -1;
+  display: inline-block; }
+
+.stripe2 {
+  width: 200px;
+  left: 85px; }
+
+.project {
+  width: 100%;
+  height: 320px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin: 30px 0px;
+  position: relative; }
+
+.project1 {
+  background: linear-gradient(0deg, rgba(52, 57, 66, 0.3), rgba(52, 57, 66, 0.3)), url(../images/camp-dash.jpg) center center;
+  background-size: cover; }
+
+.project2 {
+  background: linear-gradient(0deg, rgba(52, 57, 66, 0.3), rgba(52, 57, 66, 0.3)), url(../images/movie-trailer.jpg) center center;
+  background-size: cover; }
+
+.project3 {
+  background: linear-gradient(0deg, rgba(52, 57, 66, 0.3), rgba(52, 57, 66, 0.3)), url(../images/javascript-drums.jpg) center center;
+  background-size: cover; }
+
+.project4 {
+  background: linear-gradient(0deg, rgba(52, 57, 66, 0.3), rgba(52, 57, 66, 0.3)), url(../images/nifty-quotes.jpg) center center;
+  background-size: cover; }
+
+.unsplash-badge {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  opacity: .8; }
+
+.project .project-text {
+  font-family: 'Arvo', serif;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  text-align: right;
+  line-height: 80%; }
+
+.project-text a {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 600;
+  text-decoration: underline; }
+
+.project-text a:hover {
+  color: #FF4365; }
+
+.icons {
+  margin: 20px 0px; }
+
+.icons a {
+  margin-left: 20px; }
