@@ -236,7 +236,7 @@ footer {
   text-align: center; }
 
 .social-icons a {
-  margin-right: 30px; }
+  margin: 0px 20px; }
 
 .social-icons a:hover {
   opacity: .70; }
