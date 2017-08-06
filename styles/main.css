@@ -25,6 +25,9 @@ body {
 p {
   margin-bottom: 1.3em; }
 
+header, section, footer {
+  max-width: 100%; }
+
 h1,
 h2,
 h3,
@@ -58,6 +61,10 @@ small,
   font-weight: 700;
   margin-top: 30px;
   text-align: right; }
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto; }
 
 .nav-wrapper {
   width: 100%;
@@ -101,7 +108,8 @@ small,
   font-weight: 700;
   line-height: 50%; }
 
-.stripe1, .stripe2 {
+.stripe1,
+.stripe2 {
   width: 200px;
   height: 28px;
   background: #FF4365;
@@ -115,15 +123,19 @@ small,
   width: 200px;
   left: 85px; }
 
-.section-wrapper .titles {
-  margin-right: 20px; }
+.project-wrapper {
+  margin: 0 auto; }
+
+.project-wrapper h4 {
+  padding-right: 20px; }
 
 .project {
+  max-width: 600px;
   width: 100%;
   height: 320px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
-  margin: 30px 0px;
+  margin: 30px auto;
   position: relative; }
 
 .project1 {
@@ -174,7 +186,10 @@ small,
   margin-left: 20px; }
 
 .about-wrapper {
-  margin: 50px 20px; }
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative; }
 
 .about-wrapper img {
   width: 165px;
@@ -182,17 +197,26 @@ small,
   margin: 30px 30px 30px 0px;
   box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.25); }
 
+.content-wrapper {
+  padding: 20px; }
+
 .resume {
   color: #FF4365; }
 
 .button {
+  width: 100px;
   padding: 10px 20px 10px 20px;
   border-radius: 0;
   background: #FF4365;
   border: none;
   font-family: 'Arvo';
   color: white;
-  text-align: center; }
+  text-align: center;
+  display: block;
+  margin-top: 25px; }
+
+footer {
+  padding: 20px; }
 
 .footer-wrapper {
   display: -webkit-box;
@@ -202,24 +226,107 @@ small,
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  margin: 100px 20px 0px 20px;
-  color: #6F6F71; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 100px 0px 5px;
+  color: #6F6F71;
+  width: 100%;
+  text-align: center; }
 
 .social-icons a {
-  margin-left: 15px; }
+  margin-right: 15px; }
 
 .social-icons a:hover {
   opacity: .70; }
 
 .design {
-  line-height: 0%; }
+  line-height: 180%; }
 
 .footer-wrapper a {
-  color: #FF4365;
-  margin-bottom: 30px; }
+  color: #FF4365; }
 
 .footer-wrapper a:hover {
   opacity: .70; }
+
+@media screen and (min-width: 568px) {
+  .header-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 80px auto; }
+  .header-wrapper h2 {
+    font-size: 6.854em;
+    line-height: 70%; }
+  .header-wrapper img {
+    width: 70px; }
+  .stripe1,
+  .stripe2 {
+    width: 320px;
+    height: 40px;
+    bottom: 30px;
+    left: 55px; }
+  .stripe2 {
+    width: 400px;
+    left: 100px; }
+  .project-wrapper {
+    width: 100%;
+    max-width: 600px; }
+  .content-wrapper h4:first-child {
+    margin-bottom: 30px; }
+  .content-wrapper img {
+    float: right;
+    margin-top: 0px;
+    margin-left: 30px; }
+  .greet {
+    font-size: 2.618em; }
+  .button {
+    margin: 20px 30px 80px;
+    float: right; } }
+
+@media screen and (min-width: 850px) {
+  .titles {
+    font-size: 2.618em;
+    margin-bottom: 30px; }
+  .header-wrapper {
+    max-width: 100%;
+    margin: 80px auto;
+    padding-left: 20px; }
+  .project-wrapper {
+    max-width: 100%; }
+  .project-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .project {
+    max-width: 600px;
+    width: 100%;
+    height: 320px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin: 1%;
+    position: relative;
+    max-width: 100%; }
+  .project1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 60%; }
+  .project2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 36%; }
+  .project3 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 36%; }
+  .project4 {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+    width: 60%; }
+  .about-wrapper {
+    max-width: 800px; } }
