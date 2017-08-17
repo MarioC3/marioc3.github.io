@@ -1,0 +1,19 @@
+.project1 {
+  background: linear-gradient(0deg, rgba(52, 57, 66, 0.3), rgba(52, 57, 66, 0.3)), url(../images/greenme.png) center center;
+  background-size: cover;
+}
+
+.project2 {
+  background: linear-gradient(0deg, rgba(52, 57, 66, 0.3), rgba(52, 57, 66, 0.3)), url(../images/posters.png) center center;
+  background-size: cover;
+}
+
+.project3 {
+  background: linear-gradient(0deg, rgba(52, 57, 66, 0.8), rgba(52, 57, 66, 0.3)), url(../images/documentation.png) center center;
+  background-size: cover;
+}
+
+.project4 {
+  background: linear-gradient(0deg, rgba(52, 57, 66, 0.8), rgba(52, 57, 66, 0.3)), url(../images/greenmemoapp.png) center center;
+  background-size: cover;
+}
